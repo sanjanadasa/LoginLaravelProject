@@ -1,0 +1,207 @@
+/* Global styles for the entire body */
+body {
+    font-family: Arial, sans-serif;   /* Set a clean, sans-serif font */
+    background-color: #f0f0f0;       /* Light gray background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;         /* Center the form horizontally */
+    align-items: center;             /* Center the form vertically */
+    height: 100vh;                   /* Full screen height */
+}
+
+/* Styling the form */
+form {
+    background-color: #ffffff;       /* White background for the form */
+    padding: 30px;                   /* Add padding inside the form */
+    border-radius: 8px;              /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+    width: 100%;
+    max-width: 500px;                /* Set a max width for the form */
+    box-shadow: 0px 1px 10px 1px #000;
+
+}
+
+/* Header for the form */
+h1 {
+    text-align: center;              /* Center the header text */
+    color: #333;                     /* Dark text color */
+    margin-bottom: 40px;             /* Space below the header */
+}
+
+/* Styling the labels */
+label {
+    font-weight: bold;               /* Make the label text bold */
+    color: #555;                     /* Medium gray text */
+    display: block;                  /* Make labels block elements to appear above inputs */
+    margin-bottom: 5px;              /* Space between label and input */
+}
+
+/* Styling the text, email, and password input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"]
+ {
+    width: 100%;                    /* Full width inputs */
+    padding: 10px;                   /* Add some padding inside the inputs */
+    margin-bottom: 20px;             /* Space between each input field */
+    border: 1px solid #ccc;          /* Light gray border */
+    border-radius: 4px;              /* Slightly rounded corners */
+    box-sizing: border-box;          /* Ensure padding is included in the width */
+    font-size: 16px;                 /* Make text inside the inputs larger */
+}
+
+/* Style the submit button */
+button {
+    width: 100%;                    /* Full width button */
+    background-color: #4CAF50;       /* Green background */
+    color: white;                    /* White text */
+    padding: 12px 20px;              /* Add padding to the button */
+    border: none;                    /* Remove borders */
+    border-radius: 4px;              /* Rounded corners */
+    cursor: pointer;                 /* Pointer cursor on hover */
+    font-size: 16px;                 /* Larger font size */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Change button color on hover */
+button {
+    background-color: #45a049;       /* Darker green when hovered */
+}
+
+
+.sidebar {
+    height: 100%; /* Full height */
+    width: 200px; /* Sidebar width */
+    position: fixed; /* Stay in place */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Dark background */
+    padding-top: 20px; /* Add some padding on top */
+}
+
+/* Sidebar links */
+.sidebar a {
+    padding: 15px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-left: -30px;
+    color: white;
+    display: block;
+}
+
+/* Sidebar icons (logo images) */
+.sidebar .icon {
+    width: 18px; /* Icon width */
+    height: 15px; /* Icon height */
+    margin-right: 5px; /* Spacing between icon and text */
+}
+
+/* Change link color on hover */
+.sidebar a:hover {
+    background-color: #575757;
+    
+}
+.container {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align cards to the left */
+    padding: 20px;
+    margin-left: 280px; /* Adjust this value to shift to the right */
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+  body{
+    margin: 0px;
+    padding: 0px;
+    background: #f1f1f1;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .card-container {
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px 1px #000;
+    border-radius: 6px;
+    text-align: center;
+   
+  }
+  .upper-container{
+    height: 150px;
+    width: 300px;
+    background: #7F00FF;
+  }
+  .image-container{
+    background: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 5px;
+    transform: translate(100px,100px);
+  }
+  .image-container img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .lower-container{
+    height: 200px;
+    background: #FFF;
+    padding: 20px;
+    padding-top: 40px;
+    text-align: center;
+  }
+  .lower-container h3, h4{
+    box-sizing: border-box;
+    line-height: .4;
+    font-weight: 900;
+    margin-bottom: 30px;
+  
+  }
+  .lower-container h4{
+    color: #7F00FF;
+    opacity: .6;
+    font-weight: bold;
+    margin-bottom: 30px;
+  
+  }
+  
+  .lower-container .btn{
+    padding: 12px 20px;
+    background: #7F00FF;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all .3s ease-in;
+    margin-bottom: 50px;
+    
+  }
+  .lower-container .btn:hover{
+    background: transparent;
+    color: #7F00FF;
+    border: 2px solid #7F00FF;
+    
+  }
+  .fixed-error {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #131212;
+    padding: 15px;
+    font-size:18px;
+    z-index: 1000; /* Ensure it stays above other elements */
+}
+
+
+
